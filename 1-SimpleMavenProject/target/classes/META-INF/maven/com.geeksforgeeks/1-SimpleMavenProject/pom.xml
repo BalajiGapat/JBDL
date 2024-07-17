@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion> <!--Version of the Project Object Model(pom.xml)-->
+  <groupId>com.geeksforgeeks</groupId> <!--This is company name-->
+  <artifactId>1-SimpleMavenProject</artifactId> <!--This is your project name-->
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	<dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.9.1</version>
+        <scope>test</scope>
+    </dependency>
+    
+    <!--Adding My Own Created Jar File Dependancy-->
+    <dependency>
+		<groupId>com.infinity</groupId>
+		<artifactId>2-SimpleMavenProject</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+    
+  </dependencies>
+  
+</project>

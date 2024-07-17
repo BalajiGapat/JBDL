@@ -1,0 +1,24 @@
+{"properties": 
+[
+  {
+    "name": "mysql.pwd",
+    "type": "java.lang.String",
+    "description": "A description for 'mysql.pwd'"
+  },
+  {
+    "name": "mysql.driver",
+    "type": "java.lang.String",
+    "description": "A description for 'mysql.driver'"
+  },
+  {
+    "name": "mysql.username",
+    "type": "java.lang.String",
+    "description": "A description for 'mysql.username'"
+  },
+  {
+    "name": "mysql.url",
+    "type": "java.lang.String",
+    "description": "A description for 'mysql.url'"
+  }
+]
+}
